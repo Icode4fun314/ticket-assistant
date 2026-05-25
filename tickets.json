@@ -1,0 +1,14 @@
+[
+    {
+        "issue": "printer is down",
+        "category": "Printer Issue",
+        "priority": "High",
+        "response": "Check printer connection and restart the printer."
+    },
+    {
+        "issue": "forgot my password",
+        "category": "Account Access",
+        "priority": "Low",
+        "response": "Reset password through the account portal."
+    }
+]
