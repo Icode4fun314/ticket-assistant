@@ -10,5 +10,29 @@
         "category": "Account Access",
         "priority": "Low",
         "response": "Reset password through the account portal."
+    },
+    {
+        "id": 1001,
+        "issue": "printer down",
+        "category": "Printer Issue",
+        "priority": "High",
+        "status": "Closed",
+        "response": "Check printer connection and restart the printer."
+    },
+    {
+        "id": 1002,
+        "issue": "exit",
+        "category": "General IT Support",
+        "priority": "Low",
+        "status": "Open",
+        "response": "Gather more information from the user."
+    },
+    {
+        "id": 1003,
+        "issue": "printer down",
+        "category": "Printer Issue",
+        "priority": "High",
+        "status": "Open",
+        "response": "Check printer connection and restart the printer."
     }
 ]
