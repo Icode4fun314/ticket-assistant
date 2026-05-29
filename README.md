@@ -1,22 +1,25 @@
 # AI Ticket Assistant
 
-A Python-based IT support ticket triage assistant that categorizes support issues, assigns priority levels, stores tickets permanently, and simulates real help desk workflow automation.
+A Python-based IT support workflow application that simulates a real-world ticketing system with automated categorization, priority assignment, searchable ticket management, and persistent JSON storage.
 
-This project was built to combine IT support experience with practical AI and automation concepts.
+Built as part of an AI Automation Engineering learning roadmap focused on workflow systems, automation, and AI integration.
 
 ---
 
 ## Features
 
-- Accepts support issues from the terminal
-- Categorizes support tickets automatically
-- Assigns ticket priority levels
-- Generates suggested support responses
-- Supports multiple tickets per session
-- Saves tickets permanently using JSON storage
-- Loads previous tickets automatically when the program starts
-- Uses structured ticket data with Python dictionaries
-- Includes basic error handling
+- Create IT support tickets
+- Automatically categorize support issues
+- Automatically assign priority levels
+- Generate suggested troubleshooting responses
+- Save tickets using persistent JSON storage
+- Assign unique ticket IDs
+- Add timestamps to new tickets
+- Track ticket status
+- Close tickets
+- View all saved tickets
+- Search tickets by issue, category, priority, or status
+- Use a menu-driven terminal workflow
 
 ---
 
@@ -25,6 +28,7 @@ This project was built to combine IT support experience with practical AI and au
 - Python
 - JSON
 - VS Code
+- Git
 - GitHub
 - Terminal / Command Line
 
@@ -33,15 +37,17 @@ This project was built to combine IT support experience with practical AI and au
 ## Skills Demonstrated
 
 - Python functions
-- Variables
-- Conditional logic: `if`, `elif`, `else`
-- Loops: `while`
 - Lists and dictionaries
+- Conditional logic
+- Loops
 - User input handling
-- File reading and writing
-- JSON data storage
-- Basic application structure
-- Workflow automation logic
+- JSON file storage
+- Data persistence
+- Search and filtering logic
+- Workflow state management
+- Basic backend application structure
+- Git/GitHub version control
+- Technical documentation
 
 ---
 
@@ -52,139 +58,3 @@ ticket-assistant/
 ├── ticket_assistant.py
 ├── tickets.json
 └── README.md
-# AI Ticket Assistant
-
-A Python-based IT support ticket triage assistant that categorizes support issues, assigns priority levels, stores tickets permanently, and simulates real help desk workflow automation.
-
-This project was built to combine IT support experience with practical AI and automation concepts.
-
----
-
-## Features
-
-- Accepts support issues from the terminal
-- Categorizes support tickets automatically
-- Assigns ticket priority levels
-- Generates suggested support responses
-- Supports multiple tickets per session
-- Saves tickets permanently using JSON storage
-- Loads previous tickets automatically when the program starts
-- Uses structured ticket data with Python dictionaries
-- Includes basic error handling
-
----
-
-## Technologies Used
-
-- Python
-- JSON
-- VS Code
-- GitHub
-- Terminal / Command Line
-
----
-
-## Skills Demonstrated
-
-- Python functions
-- Variables
-- Conditional logic: `if`, `elif`, `else`
-- Loops: `while`
-- Lists and dictionaries
-- User input handling
-- File reading and writing
-- JSON data storage
-- Basic application structure
-- Workflow automation logic
-
----
-
-## Project Structure
-
-```text
-ticket-assistant/
-├── ticket_assistant.py
-├── tickets.json
-└── README.md
-```
-
----
-
-## How To Run
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Icode4fun314/ticket-assistant.git
-```
-
-### 2. Navigate Into the Project Folder
-
-```bash
-cd ticket-assistant
-```
-
-### 3. Run the Application
-
-```bash
-python3 ticket_assistant.py
-```
-
----
-
-## Example Usage
-
-### Example Input
-
-```text
-printer is down urgent
-forgot my password
-computer is freezing
-quit
-```
-
-### Example Output
-
-```text
---- Ticket Created ---
-Issue received: printer is down urgent
-Category: Printer Issue
-Priority: High
-Suggested Response: Check printer connection and restart the printer.
-Total Tickets Stored: 1
-```
-
----
-
-## Current Workflow
-
-```text
-User enters issue
-→ Application analyzes text
-→ Category assigned
-→ Priority assigned
-→ Suggested response generated
-→ Ticket stored in memory
-→ Ticket saved to JSON file
-```
-
----
-
-## Future Improvements
-
-- Azure AI Foundry integration
-- AI-generated support responses
-- Improved ticket classification
-- Severity scoring
-- CSV export support
-- Web interface/dashboard
-- Analytics and reporting
-- Microsoft Teams integration
-
----
-
-## Why I Built This
-
-I built this project to strengthen my Python, automation, and AI workflow development skills while connecting them to real-world IT support scenarios.
-
-The long-term goal is to evolve this project into an AI-powered support workflow assistant using Microsoft Azure AI tools.
