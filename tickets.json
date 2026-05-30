@@ -34,5 +34,59 @@
         "priority": "High",
         "status": "Open",
         "response": "Check printer connection and restart the printer."
+    },
+    {
+        "id": 1004,
+        "created_at": "2026-05-29 12:15:26",
+        "issue": "printer is down",
+        "category": "Printer Issue",
+        "priority": "High",
+        "status": "Open",
+        "response": "Check printer connection, restart the printer, and verify network access."
+    },
+    {
+        "id": 1005,
+        "created_at": "2026-05-29 12:15:38",
+        "issue": "password reset needed urgent",
+        "category": "Account Access",
+        "priority": "Medium",
+        "status": "Closed",
+        "response": "Reset the user's password through the account portal and verify login access."
+    },
+    {
+        "id": 1006,
+        "created_at": "2026-05-29 13:38:51",
+        "issue": "printer is down and users cannot print",
+        "category": "Printer Issue",
+        "priority": "High",
+        "status": "Closed",
+        "response": "Check printer connection, restart the printer, and verify network access."
+    },
+    {
+        "id": 1007,
+        "created_at": "2026-05-29 13:39:40",
+        "issue": "1",
+        "category": "General Inquiry",
+        "priority": "Low",
+        "status": "Closed",
+        "response": "Please provide more details about your issue so we can assist you effectively."
+    },
+    {
+        "id": 1008,
+        "created_at": "2026-05-29 13:41:56",
+        "issue": "printer is down and users cannot print",
+        "category": "Printer Issue",
+        "priority": "High",
+        "status": "Open",
+        "response": "Please check if the printer is powered on and connected to the network. Verify if there are any error messages on the printer display and ensure the print queue is not jammed. Restart the printer if necessary."
+    },
+    {
+        "id": 1009,
+        "created_at": "2026-05-29 13:47:52",
+        "issue": "printer is down cannot print",
+        "category": "Hardware",
+        "priority": "High",
+        "status": "Open",
+        "response": "Please check if the printer is powered on and connected to the network or computer. Restart the printer and try printing a test page. If the issue persists, verify printer drivers are installed and up to date."
     }
 ]
