@@ -88,5 +88,14 @@
         "priority": "High",
         "status": "Open",
         "response": "Please check if the printer is powered on and connected to the network or computer. Restart the printer and try printing a test page. If the issue persists, verify printer drivers are installed and up to date."
+    },
+    {
+        "id": 1010,
+        "created_at": "2026-06-02 11:19:50",
+        "issue": "printer is not working",
+        "category": "Printer Issue",
+        "priority": "High",
+        "status": "Open",
+        "response": "Check printer connection, restart the printer, and verify network access."
     }
 ]
